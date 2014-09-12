@@ -55,4 +55,3 @@ app.use(passport.session();
 #### 参考
 [Express + Passport でお手軽ユーザー認証](http://kikuchy.hatenablog.com/entry/2013/07/03/042221)
 [node.js から MongoDB にアクセス (Mongoose の紹介)](http://krdlab.hatenablog.com/entry/20110317/1300367785)
-)))))}))}
