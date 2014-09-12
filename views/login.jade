@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    if(message)
+        p= message
+    form(action="/login", method="post")
+        input(type="text", name="email", placeholder="Email")
+        br
+        input(type="password", name="password", placeholder="Password")
+        input(type="submit", value="Login")
